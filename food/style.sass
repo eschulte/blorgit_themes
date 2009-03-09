@@ -1,0 +1,123 @@
+body
+  background: #6d6d6d
+
+#titlebar
+  #title_pre
+    background: url(/images/patton-extension-small-double.png) repeat-x 0px 0px transparent
+    margin: 0px
+    width: 98%
+    height: 182px
+    position: absolute
+    z-index: 0
+    border-radius: 18px
+    -moz-border-radius: 18px
+    -webkit-border-radius: 18px
+  #title
+    background: url(/images/patton-small.png) no-repeat
+    margin: 0px
+    position: absolute
+    width: 451px
+    height: 182px
+    z-index: 0
+    border-radius: 18px
+    -moz-border-radius: 18px
+    -webkit-border-radius: 18px
+    a
+      color: white
+      position: absolute
+      padding-top: 24px
+      padding-left: 98px
+      width: 182px
+      height: 158px
+      font-size: 36px
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+  #search
+    position: absolute
+    right: 4%
+    z-index: 1
+    ul
+      list-style: none
+  #actions
+    position: absolute
+    right: 4%
+    top: 136px
+    z-index: 1
+    ul
+      list-style: none
+      li
+        display: inline
+        padding-left: .5em
+        padding-right: .5em
+        padding-top: .25em
+        padding-bottom: .25em
+        margin: .25em
+        background: #6d6d6d
+        border: 1px solid black
+        border-radius: 8px
+        -moz-border-radius: 8px
+        -webkit-border-radius: 8px
+        &:hover
+          background: white
+          a
+            color: #6d6d6d
+        a
+          color: white
+          text-decoration: none
+
+#title_separator
+  clear: both
+
+#insides
+  position: absolute
+  top: 200px
+  width: 98%
+  border-radius: 18px
+  -moz-border-radius: 18px
+  -webkit-border-radius: 18px
+  background: white
+
+#sidebar
+  float: right
+  width: 12em
+  font-size: 9pt
+  margin: .5em
+  label
+    font-weight: bold
+  div
+    border: 2px solid #6d6d6d
+    padding: .5em
+    margin-top: 1em
+    background: #c9db8a
+    border-radius: 8px
+    -moz-border-radius: 8px
+    -webkit-border-radius: 8px
+  ul
+    list-style: circle
+    li
+      &:hover
+        list-style: disc
+      a
+        color: black
+        text-decoration: none
+        -# &:hover
+        -#   background: #8daf13
+
+#contents
+  padding: .5em
+
+#comments
+  list-style: none
+
+#comments ul
+  list-style: none
+
+#comments label
+  font-weight: bold
+
+#new_comment
+  label
+    display: block
+    &:hover
+      text-decoration: underline
