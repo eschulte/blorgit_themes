@@ -2,27 +2,34 @@
   float: right
   width: 12em
   font-size: 9pt
+  ul
+    list-style: none
 
-#sidebar ul
-  list-style: none
-
-#titlebar a
-  float: left
+#titlebar
+  #title
+    float: left
+  #search
+    float: right
+    ul
+      list-style:  none
+  #actions
+    float: right
+    ul
+      list-style:  none
+      li
+        display: inline
 
 #title_separator
   clear: both
 
-#titlebar #user
-  float: right
+#comments
+  ul
+    list-style: none
 
 #comments
-  list-style: none
+  label
+    font-weight: bold
 
-#comments ul
-  list-style: none
-
-#comments label
-  font-weight: bold
-
-#new_comment label
-  display: block
+#new_comment
+  label
+    display: block
