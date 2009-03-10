@@ -1,0 +1,101 @@
+#titlebar
+  background: #1e0601
+  border-radius: 18px
+  width: 98%
+  -moz-border-radius: 18px
+  -webkit-border-radius: 18px
+  clear: both
+  #title
+    a
+      // thanks to Tim Burt for the folded unicorn
+      background: url(/images/folded-unicorn.png) no-repeat
+      margin: .5em
+      float: left
+      width: 158px
+      height: 150px
+      border-radius: 18px
+      -moz-border-radius: 18px
+      -webkit-border-radius: 18px
+      font-size: 0px
+  #search
+    margin: .5em
+    float: right
+    ul
+      list-style: none
+  #actions
+    float: right
+    ul
+      list-style: none
+      li
+        display: inline
+        padding-left: .5em
+        padding-right: .5em
+        padding-top: .25em
+        padding-bottom: .25em
+        margin: .25em
+        background: #6d6d6d
+        border: 1px solid black
+        border-radius: 8px
+        -moz-border-radius: 8px
+        -webkit-border-radius: 8px
+        &:hover
+          background: white
+          a
+            color: #6d6d6d
+        a
+          color: white
+          text-decoration: none
+
+#title_separator
+  clear: both
+
+#insides
+  width: 98%
+  border-radius: 18px
+  -moz-border-radius: 18px
+  -webkit-border-radius: 18px
+  background: white
+
+#sidebar
+  float: right
+  width: 12em
+  font-size: 9pt
+  margin: .5em
+  label
+    font-weight: bold
+  div
+    border: 2px solid #6d6d6d
+    padding: .5em
+    margin-top: 1em
+    background: #1e0601
+    color: white
+    border-radius: 8px
+    -moz-border-radius: 8px
+    -webkit-border-radius: 8px
+  ul
+    list-style: circle
+    li
+      color: white
+      &:hover
+        list-style: disc
+      a
+        color: white
+        text-decoration: none
+
+#contents
+  padding: .5em
+
+#comments
+  list-style: none
+
+#comments ul
+  list-style: none
+
+#comments label
+  font-weight: bold
+
+#new_comment
+  label
+    display: block
+    &:hover
+      text-decoration: underline
