@@ -64,6 +64,38 @@
   -webkit-border-radius: 18px
   background: white
 
+#table-of-contents
+  overflow: hidden
+  padding: .5em
+  border-radius: 8px
+  -moz-border-radius: 8px
+  -webkit-border-radius: 8px
+  h2
+    margin: 0
+  ul
+    list-style: none
+    li
+      background: #1e0601
+      border-radius: 8px
+      -moz-border-radius: 8px
+      -webkit-border-radius: 8px
+      margin: .25em
+      padding: .5em
+      float: left
+      a
+        color: white
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+      ul
+        li
+          float: none
+          margin: 0
+          padding: 0
+
+#outline-container-1
+  clear: both
+
 #sidebar
   float: right
   width: 12em
