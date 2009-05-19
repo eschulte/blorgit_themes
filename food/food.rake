@@ -1,3 +1,5 @@
+require 'sass'
+
 $food_dir = File.dirname(__FILE__)
 namespace :themes do
   desc "a food theme for my recipes"

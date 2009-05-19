@@ -1,3 +1,5 @@
+require 'sass'
+
 $dir = File.dirname(__FILE__)
 namespace :themes do
   desc "an org-mode theme featuring the folding unicorn"
