@@ -1,0 +1,95 @@
+// include the worg stylesheet
+@import worg.css
+
+#sidebar
+  :float right
+  :width 12em
+  :font-size 9pt
+  :color black
+  :background #FFF
+  :font-size 80%
+  :padding .5em
+  :margin 1em -2em 1em 1em
+  :float right
+  :display block
+  :max-width 50%
+  ul
+    :list-style none
+    :border 1px solid #CCC
+
+#titlebar
+  #title
+    float: left
+  #search
+    float: right
+    ul
+      list-style:  none
+  #actions
+    float: right
+    ul
+      list-style:  none
+      li
+        display: inline
+
+#title_separator
+  clear: both
+
+#comments
+  ul
+    list-style: none
+
+#comments
+  label
+    font-weight: bold
+
+#new_comment
+  label
+    display: block
+
+#content
+  :margin-right 12em
+
+// default org-mode styles
+.todo
+  :color red
+.done
+  :color green
+.tag
+  :background-color #add8e6
+  :font-weight normal
+.timestamp
+  :color #bebebe
+.timestamp-kwd
+  :color #5f9ea0
+p.verse
+  :margin-left 3%
+pre
+  :border 1pt solid #AEBDCC
+  :background-color #F3F5F7
+  :padding 5pt
+  :font-size 90%
+  :overflow auto
+table
+  :border-collapse collapse
+td, th
+  :vertical-align top
+dt
+  :font-weight bold
+div.figure
+  :padding .5em
+  p
+    :text-align center
+.linenr
+  :font-size smaller
+.code-highlighted
+  :background-color #ffff00
+.org-info-js_info-nagication
+  :border-style none
+#org-info-js_console-label
+  :font-size 10px
+  :font-weight bold
+  :white-space nowrap
+.org-info-js_search-highlight
+  :background-color #ffff00
+  :color #000000
+  :font-weight bold
